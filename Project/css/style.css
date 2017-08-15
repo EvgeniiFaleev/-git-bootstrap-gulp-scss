@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  font-size: 14px; }
+
+body {
+  max-width: 1920px; }
+
+header {
+  background-image: url(../img/HeaderBack.jpg);
+  background-size: cover;
+  background-position: center center;
+  max-height: 800px;
+  height: 110%; }
+  header ul, header li {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1rem; }
+  header .logoSign {
+    color: #4bcaff; }
