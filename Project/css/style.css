@@ -1,11 +1,33 @@
 html, body {
-  height: 100%;
   font-size: 14px; }
 
 body {
+  width: 100%;
   max-width: 1920px; }
 
 header {
   background-image: url(../img/HeaderBack.jpg);
   background-size: cover;
   background-position: center center; }
+<<<<<<< HEAD
+=======
+  header .topmenu {
+    padding: 3.33% 0 3.39% 0;
+    background: rgba(53, 63, 70, 0.5); }
+    header .topmenu .topbtn {
+      padding: 10px 17px 8px 17px;
+      color: white;
+      font-weight: bold;
+      border: 2px solid transparent; }
+      header .topmenu .topbtn:active {
+        color: #4bcaff;
+        border-color: #4bcaff;
+        cursor: pointer; }
+      header .topmenu .topbtn:hover {
+        cursor: pointer;
+        color: #4bcaff; }
+  header .logophrase {
+    color: #fff;
+    background: rgba(53, 63, 70, 0.5);
+    padding: 17px 20px 19px; }
+>>>>>>> d0c675e... Gotovoe Menu
