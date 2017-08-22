@@ -1,3 +1,7 @@
+//import fonts
+@import "fonts";
+
+
 html, body{
 	font-size: 14px;
 }
@@ -9,7 +13,7 @@ header{
 	background-image: url(../img/HeaderBack.jpg);
 	background-size: cover;
 	background-position: center center;
-
+	padding-bottom: 13.44%;
 	
 
 	.topmenu{
@@ -20,7 +24,8 @@ header{
 				color:white;
 				font-weight: bold;
 				border: 2px solid transparent;
-				
+				-webkit-transition: color 0.5s, border 0.5s;
+				transition: color 0.5s, border 0.5s;
 				&:active{
 					color:#4bcaff;
 					border-color:  #4bcaff;
@@ -32,13 +37,42 @@ header{
 				}
 			}
 	}
-	.logophrase{
+	.headwrapper{
+		margin-top:13.02%;
+	}
+	.heroHeading_logophrase{
 		color:#fff;
-		background: rgba(53, 63, 70, 0.5);
-		padding:17px 20px 19px;
-		//margin:0 auto;
+		background: rgba(53, 63, 70, 0.7);
+		padding:0 20px;
+		font-size:3rem;
+		line-height: 75px;
+		font-family: "SegoeUILight","Arial", sans-serif;
+		text-transform: uppercase;
 		
 	}
-		
-
+}
+main{
+	background: #4bcaff;
+	font-family: "SegoeUILight","Arial", sans-serif;
+	padding: 4.17%  0 4.01%;
+		.services{
+			text-transform:uppercase;
+			color: #fff;
+			font-size: 2.14rem;
+				span{
+					border-bottom: 0.067em solid #fff;
+			}
+		}
+		.services_items{
+			color: #fff;
+			.item_head{
+				text-transform:uppercase;
+				font-family: "SegoeUIBold","Arial", sans-serif;
+				font-size: 1.71rem;
+			}
+			.item_desc{
+				font-family: "SegoeUIRegular","Arial", sans-serif;
+				font-size: 0.857rem;
+			}
+		}
 }

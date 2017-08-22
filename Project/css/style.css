@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"), url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUIItalic";
+  src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot");
+  src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"), url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+  src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "SegoeUISemiBold";
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+  src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 html, body {
   font-size: 14px; }
 
@@ -8,9 +43,8 @@ body {
 header {
   background-image: url(../img/HeaderBack.jpg);
   background-size: cover;
-  background-position: center center; }
-<<<<<<< HEAD
-=======
+  background-position: center center;
+  padding-bottom: 13.44%; }
   header .topmenu {
     padding: 3.33% 0 3.39% 0;
     background: rgba(53, 63, 70, 0.5); }
@@ -18,7 +52,9 @@ header {
       padding: 10px 17px 8px 17px;
       color: white;
       font-weight: bold;
-      border: 2px solid transparent; }
+      border: 2px solid transparent;
+      -webkit-transition: color 0.5s, border 0.5s;
+      transition: color 0.5s, border 0.5s; }
       header .topmenu .topbtn:active {
         color: #4bcaff;
         border-color: #4bcaff;
@@ -26,8 +62,33 @@ header {
       header .topmenu .topbtn:hover {
         cursor: pointer;
         color: #4bcaff; }
-  header .logophrase {
+  header .headwrapper {
+    margin-top: 13.02%; }
+  header .heroHeading_logophrase {
     color: #fff;
-    background: rgba(53, 63, 70, 0.5);
-    padding: 17px 20px 19px; }
->>>>>>> d0c675e... Gotovoe Menu
+    background: rgba(53, 63, 70, 0.7);
+    padding: 0 20px;
+    font-size: 3rem;
+    line-height: 75px;
+    font-family: "SegoeUILight","Arial", sans-serif;
+    text-transform: uppercase; }
+
+main {
+  background: #4bcaff;
+  font-family: "SegoeUILight","Arial", sans-serif;
+  padding: 4.17%  0 4.01%; }
+  main .services {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.14rem; }
+    main .services span {
+      border-bottom: 0.067em solid #fff; }
+  main .services_items {
+    color: #fff; }
+    main .services_items .item_head {
+      text-transform: uppercase;
+      font-family: "SegoeUIBold","Arial", sans-serif;
+      font-size: 1.71rem; }
+    main .services_items .item_desc {
+      font-family: "SegoeUIRegular","Arial", sans-serif;
+      font-size: 0.857rem; }
