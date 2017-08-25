@@ -60,7 +60,7 @@ main{
 			color: #fff;
 			font-size: 2.14rem;
 				span{
-					border-bottom: 0.067em solid #fff;
+					border-bottom: 0.067em  solid #fff;
 			}
 		}
 		.services_items{
@@ -76,3 +76,182 @@ main{
 			}
 		}
 }
+.portfolio_ul{
+	list-style-type: none;
+	// padding:0;
+	margin-top:5%;
+	margin-bottom:5%;
+			.portf_logo{
+			font-family: "SegoeUILight","Arial", sans-serif;
+			text-transform:uppercase;
+			color: #515f67;
+			font-size: 2.14rem;
+				.span_a{
+					border-bottom: 0.067em  solid #515f67;
+					display:inline;
+					padding-right: 0.3em;
+				 }
+				 .span_b{
+				 	margin-left: -0.3em ;
+				 }
+				}
+	
+		.portf_btn{
+				font-size:1rem;
+				text-transform:uppercase;
+				font-family:"SegoeUIBold","Arial", sans-serif;
+				color:#515f67;
+				padding:10px 17px 8px 17px;
+				text-decoration:none;
+				border: 2px solid transparent;
+				-webkit-transition: color 0.5s, border 0.5s;
+				transition: color 0.5s, border 0.5s;
+				&:active{
+					color:#4bcaff;
+					border-color:  #4bcaff;
+					cursor: pointer;
+				}
+				&:hover{
+					cursor: pointer;
+					color:#4bcaff;
+				}
+			}
+		
+	// #portf_btn_all{ //Change!!
+	// 	padding-left: 1em;
+
+	// }
+	#portf_btn_panoram{
+		margin-right:0.6em;
+		
+	}
+	#portf_btn_portr{
+		margin-left: 0.4em;
+	}
+	#portf_btn_macro{
+		margin-left: 0.6em;
+	}
+	#portf_btn_journal{
+		margin-left: 0.8em;
+	}
+}
+
+.portf_img{
+	margin-bottom:2.48%;
+
+		.thumbs_row{
+			padding-top: 98.89%;
+			display: block;
+			
+		}
+}
+
+
+
+.thumbs_row1_1{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo1_1.png);
+}
+.thumbs_row1_2{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo1_2.png);
+}
+.thumbs_row1_3{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo1_3.png);
+}
+.thumbs_row1_4{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo1_4.png);
+}
+.thumbs_row2_1{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo2_1.png);
+}
+.thumbs_row2_2{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo2_2.png);
+}
+.thumbs_row2_3{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo2_3.png);
+}
+.thumbs_row2_4{
+	background-position:center center;
+	background-size:cover;
+	background-color: #979797;
+	background-image: url(../img/photo2_4.png);
+}
+
+//Default section
+.defsec{
+	background:#515f67;
+	.defsec_row{
+		margin-top: 3.357rem;
+			margin-bottom:5.57rem;
+	}
+		.defsectxt{
+			font-family: "SegoeUILight","Arial", sans-serif;
+			color:#fff;
+				.defsec_header{
+				text-transform:uppercase;
+				font-size: 2.14rem;
+					span{
+						
+						border-bottom: 0.067em  solid #fff;
+					}
+				}	
+				p{
+					font-size: 1rem;
+					font-family: "SegoeUIRegular","Arial", sans-serif;
+					line-height: 1.71rem;
+					
+				}
+				p:nth-child(2){
+						margin-top:2.71em;
+					}
+				a{	
+					display:inline-block;
+					margin-top:2.714em;
+					font-size:1rem;
+					font-family: "SegoeUIBold","Arial", sans-serif;
+					text-transform:uppercase;
+					color:#353f46;
+					padding:1.071em 2.714em;
+					text-decoration:none;
+					border: 2px solid #353f46;
+					-webkit-transition: color 0.5s, border 0.5s;
+					transition: color 0.5s, border 0.5s;
+					&:active{
+						color:#4bcaff;
+						border-color:  #fff;
+						cursor: pointer;
+					}
+					&:hover{
+						cursor: pointer;
+						color:#fff;
+					}
+				}
+		}
+			.video{
+				margin-top:2em;
+			}			
+}	
+
+	.twitter{
+		background:#4bcaff;
+	}

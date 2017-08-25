@@ -48,3 +48,42 @@
 			font-style: normal;
 			font-weight: normal;
 	}
+
+	//icons
+	@font-face {
+  	font-family: 'icomoon';
+ 	 src:  url('../fonts/icons/icomoon.eot?wm14l1');
+	 src:  url('../fonts/icons/icomoon.eot?wm14l1#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?wm14l1') format('truetype'),
+    url('../fonts/icons/icomoon.woff?wm14l1') format('woff'),
+    url('../fonts/icons/icomoon.svg?wm14l1#icomoon') format('svg');
+ 	 font-weight: normal;
+ 	 font-style: normal;
+}
+	[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-coffee:before {
+  content: "\f0f4";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
