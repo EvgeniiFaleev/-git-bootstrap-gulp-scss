@@ -1,9 +1,17 @@
 //import fonts
 @import "fonts";
+@import "functions";
 
+//  *[class*="col-"]{
+// 	padding-left: 0;
+// }
 
 html, body{
 	font-size: 14px;
+}
+h2{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 body{
 	width: 100%;
@@ -54,11 +62,11 @@ header{
 main{
 	background: #4bcaff;
 	font-family: "SegoeUILight","Arial", sans-serif;
-	padding: 4.17%  0 4.01%;
-		.services{
+		.services_head{
 			text-transform:uppercase;
 			color: #fff;
 			font-size: 2.14rem;
+			margin: 6.66% 0 3.76% 0;
 				span{
 					border-bottom: 0.067em  solid #fff;
 			}
@@ -201,8 +209,8 @@ main{
 .defsec{
 	background:#515f67;
 	.defsec_row{
-		margin-top: 3.357rem;
-			margin-bottom:5.57rem;
+		margin-top: 6.66%;
+		margin-bottom:7.094%;
 	}
 		.defsectxt{
 			font-family: "SegoeUILight","Arial", sans-serif;
@@ -247,11 +255,81 @@ main{
 					}
 				}
 		}
-			.video{
-				margin-top:2em;
-			}			
+					
 }	
 
 	.twitter{
 		background:#4bcaff;
+		color:#fff;
+		.twitter_row{
+			margin-top: 6.66%;
+		}
+			.twitter_head{
+				font-family: "SegoeUILight","Arial", sans-serif;
+				text-transform:uppercase;
+					span{
+						border-bottom: 0.067em  solid #fff;
+					}
+			}
+			.twitter_icon{
+				font-size: 2.14rem;
+			}
+
+			.twitter_txt{
+				font-size: rem(28);
+				clear:both;
+				font-family: "SegoeUILight","Arial", sans-serif;
+				margin-top: 3.077%;
+				margin-bottom: 6.66%;
+				padding-right: 0;
+				line-height: em(50,28);
+				
+					span{
+						font-family: "SegoeUISemiBold","Arial", sans-serif;
+					}
+
+			}
+	} 
+
+	//John Doe 
+	.john{
+		color:#fff;
+		background: url(../img/john.png);
+		background-position: center center;
+		background-size: cover;
+			.john_headrow{
+				margin-top:8.376%;
+				margin-bottom: 3.93% ;
+
+				.john_head{
+					font-family: "SegoeUILight","Arial", sans-serif;
+					text-transform: uppercase;
+						span{
+							border-bottom: 0.067em  solid #fff;
+						}
+				}
+			}
+			.john_txtrow{
+				margin-bottom: 13.85%;
+				font-size: 1rem;
+				font-family: "SegoeUIRegular","Arial", sans-serif;
+					.john_txt1{
+							p:first-child{
+								padding-bottom: 5.47%;
+							}
+					}
+					.john_txt2{
+							p:first-child{
+								padding-bottom: 5.47%;
+							}
+							.john_icons{
+								font-size: 1rem;
+									i{
+										padding:1em;
+										border: 2px solid #fff;
+										margin-right: em(15);
+									}
+							}
+					}
+			}
 	}

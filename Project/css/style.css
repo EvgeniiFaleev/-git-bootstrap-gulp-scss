@@ -68,6 +68,10 @@
 html, body {
   font-size: 14px; }
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 body {
   width: 100%;
   max-width: 1920px; }
@@ -107,13 +111,13 @@ header {
 
 main {
   background: #4bcaff;
-  font-family: "SegoeUILight","Arial", sans-serif;
-  padding: 4.17%  0 4.01%; }
-  main .services {
+  font-family: "SegoeUILight","Arial", sans-serif; }
+  main .services_head {
     text-transform: uppercase;
     color: #fff;
-    font-size: 2.14rem; }
-    main .services span {
+    font-size: 2.14rem;
+    margin: 6.66% 0 3.76% 0; }
+    main .services_head span {
       border-bottom: 0.067em  solid #fff; }
   main .services_items {
     color: #fff; }
@@ -223,8 +227,8 @@ main {
 .defsec {
   background: #515f67; }
   .defsec .defsec_row {
-    margin-top: 3.357rem;
-    margin-bottom: 5.57rem; }
+    margin-top: 6.66%;
+    margin-bottom: 7.094%; }
   .defsec .defsectxt {
     font-family: "SegoeUILight","Arial", sans-serif;
     color: #fff; }
@@ -258,8 +262,54 @@ main {
       .defsec .defsectxt a:hover {
         cursor: pointer;
         color: #fff; }
-  .defsec .video {
-    margin-top: 2em; }
 
 .twitter {
-  background: #4bcaff; }
+  background: #4bcaff;
+  color: #fff; }
+  .twitter .twitter_row {
+    margin-top: 6.66%; }
+  .twitter .twitter_head {
+    font-family: "SegoeUILight","Arial", sans-serif;
+    text-transform: uppercase; }
+    .twitter .twitter_head span {
+      border-bottom: 0.067em  solid #fff; }
+  .twitter .twitter_icon {
+    font-size: 2.14rem; }
+  .twitter .twitter_txt {
+    font-size: 2rem;
+    clear: both;
+    font-family: "SegoeUILight","Arial", sans-serif;
+    margin-top: 3.077%;
+    margin-bottom: 6.66%;
+    padding-right: 0;
+    line-height: 1.78571em; }
+    .twitter .twitter_txt span {
+      font-family: "SegoeUISemiBold","Arial", sans-serif; }
+
+.john {
+  color: #fff;
+  background: url(../img/john.png);
+  background-position: center center;
+  background-size: cover; }
+  .john .john_headrow {
+    margin-top: 8.376%;
+    margin-bottom: 3.93%; }
+    .john .john_headrow .john_head {
+      font-family: "SegoeUILight","Arial", sans-serif;
+      text-transform: uppercase; }
+      .john .john_headrow .john_head span {
+        border-bottom: 0.067em  solid #fff; }
+  .john .john_txtrow {
+    margin-bottom: 13.85%;
+    font-size: 1rem;
+    font-family: "SegoeUIRegular","Arial", sans-serif; }
+    .john .john_txtrow .john_txt1 p:first-child {
+      padding-bottom: 5.47%; }
+    .john .john_txtrow .john_txt2 p:first-child {
+      padding-bottom: 5.47%; }
+    .john .john_txtrow .john_txt2 .john_icons {
+      font-size: 1rem; }
+      .john .john_txtrow .john_txt2 .john_icons i {
+        padding: 1em;
+        border: 2px solid #fff;
+        margin-right: 1.07143em; }
