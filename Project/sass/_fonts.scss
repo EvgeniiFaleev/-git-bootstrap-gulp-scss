@@ -1,4 +1,5 @@
-
+@import "mixins";
+//segoe
 @font-face {
 			font-family: "SegoeUIRegular";
 			src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
@@ -48,7 +49,10 @@
 			font-style: normal;
 			font-weight: normal;
 	}
-
+//bitter
+	@include font-face("Bitter-Bold", "../fonts/bitter/Bitter-Bold", normal, normal);
+	
+ 
 	//icons
 	@font-face {
   	font-family: 'icomoon';

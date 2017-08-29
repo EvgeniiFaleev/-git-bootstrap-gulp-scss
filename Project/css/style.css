@@ -34,6 +34,13 @@
   font-weight: normal; }
 
 @font-face {
+  font-family: "Bitter-Bold";
+  src: url("../fonts/bitter/Bitter-Bold.eot");
+  src: url("../fonts/bitter/Bitter-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/bitter/Bitter-Bold.woff") format("woff"), url("../fonts/bitter/Bitter-Bold.ttf") format("truetype"), url("../fonts/bitter/Bitter-Bold.svg#Bitter-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icons/icomoon.eot?wm14l1");
   src: url("../fonts/icons/icomoon.eot?wm14l1#iefix") format("embedded-opentype"), url("../fonts/icons/icomoon.ttf?wm14l1") format("truetype"), url("../fonts/icons/icomoon.woff?wm14l1") format("woff"), url("../fonts/icons/icomoon.svg?wm14l1#icomoon") format("svg");
@@ -115,7 +122,7 @@ main {
   main .services_head {
     text-transform: uppercase;
     color: #fff;
-    font-size: 2.14rem;
+    font-size: 2.14286rem;
     margin: 6.66% 0 3.76% 0; }
     main .services_head span {
       border-bottom: 0.067em  solid #fff; }
@@ -137,7 +144,7 @@ main {
     font-family: "SegoeUILight","Arial", sans-serif;
     text-transform: uppercase;
     color: #515f67;
-    font-size: 2.14rem; }
+    font-size: 2.14286rem; }
     .portfolio_ul .portf_logo .span_a {
       border-bottom: 0.067em  solid #515f67;
       display: inline;
@@ -234,7 +241,7 @@ main {
     color: #fff; }
     .defsec .defsectxt .defsec_header {
       text-transform: uppercase;
-      font-size: 2.14rem; }
+      font-size: 2.14286rem; }
       .defsec .defsectxt .defsec_header span {
         border-bottom: 0.067em  solid #fff; }
     .defsec .defsectxt p {
@@ -270,7 +277,8 @@ main {
     margin-top: 6.66%; }
   .twitter .twitter_head {
     font-family: "SegoeUILight","Arial", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.14286rem; }
     .twitter .twitter_head span {
       border-bottom: 0.067em  solid #fff; }
   .twitter .twitter_icon {
@@ -296,7 +304,8 @@ main {
     margin-bottom: 3.93%; }
     .john .john_headrow .john_head {
       font-family: "SegoeUILight","Arial", sans-serif;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 2.14286rem; }
       .john .john_headrow .john_head span {
         border-bottom: 0.067em  solid #fff; }
   .john .john_txtrow {
@@ -313,3 +322,95 @@ main {
         padding: 1em;
         border: 2px solid #fff;
         margin-right: 1.07143em; }
+
+.testim {
+  padding-top: 6.40%;
+  padding-bottom: 6%; }
+  .testim .testim_head {
+    font-family: "SegoeUILight","Arial", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.14286rem; }
+    .testim .testim_head span {
+      border-bottom: 0.067em  solid #515f67; }
+  .testim .testim_i {
+    font-family: "Bitter-Bold","Arial", sans-serif;
+    font-size: 5.14286rem;
+    vertical-align: top;
+    line-height: 0.83333em; }
+  .testim .testim_txt {
+    font-family: "SegoeUILight","Arial", sans-serif;
+    font-size: 2rem;
+    line-height: 1.78571em; }
+  .testim .testim_quote {
+    border: 0;
+    font-family: "SegoeUIBold","Arial", sans-serif;
+    font-size: 1rem;
+    color: #4bcaff;
+    line-height: 2.5em;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0; }
+
+.form {
+  background: url(../img/Form.png);
+  background-position: center center;
+  background-size: cover;
+  color: #fff; }
+  .form .form_wrapper {
+    padding-top: 6.40%;
+    padding-bottom: 6%; }
+    .form .form_wrapper .form_headrow {
+      margin-bottom: 3.16%;
+      font-family: "SegoeUILight","Arial", sans-serif;
+      text-transform: uppercase;
+      font-size: 2.14286rem; }
+      .form .form_wrapper .form_headrow span {
+        border-bottom: 2px solid #fff;
+        padding-right: 0.16667em;
+        margin-right: -0.16667em; }
+    .form .form_wrapper .form_namerow .nameblock {
+      font-size: 1rem;
+      font-family: "SegoeUIBold","Arial", sans-serif; }
+      .form .form_wrapper .form_namerow .nameblock input {
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 0;
+        height: 56px; }
+    .form .form_wrapper .form_namerow .nameblocktxt {
+      font-size: 1rem;
+      font-family: "SegoeUISemiBold","Arial", sans-serif; }
+      .form .form_wrapper .form_namerow .nameblocktxt p:first-child {
+        padding-top: 3.42%; }
+    .form .form_wrapper .form_namerow .nameblock p, .form .form_wrapper .form_namerow .nameblocktxt p {
+      margin-bottom: 7.59%; }
+    .form .form_wrapper .form_msgrow .msgrow_txtarea {
+      margin-bottom: 3.16%; }
+      .form .form_wrapper .form_msgrow .msgrow_txtarea #message {
+        background: transparent;
+        border-radius: 0;
+        height: 214px;
+        border: 2px solid #fff; }
+    .form .form_wrapper .form_msgrow .msgbtn {
+      width: 100%;
+      background: #4bcaff;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-family: "SegoeUISemiBold","Arial", sans-serif;
+      border: 0;
+      height: 60px; }
+
+footer {
+  background: #353f47;
+  color: #4b5860;
+  font-size: 0.85714rem;
+  font-family: "SegoeUISemiBold","Arial", sans-serif;
+  text-transform: uppercase; }
+  footer .footer_row {
+    padding-top: 6.40%;
+    padding-bottom: 6%; }
+    footer .footer_row a {
+      color: #4b5860;
+      text-decoration: none;
+      cursor: pointer; }
+    footer .footer_row span {
+      padding: 0 1em 0 1em; }

@@ -1,7 +1,9 @@
 //import fonts
 @import "fonts";
 @import "functions";
-
+@import "mixins";
+  
+ 
 //  *[class*="col-"]{
 // 	padding-left: 0;
 // }
@@ -65,7 +67,7 @@ main{
 		.services_head{
 			text-transform:uppercase;
 			color: #fff;
-			font-size: 2.14rem;
+			font-size: rem(30);
 			margin: 6.66% 0 3.76% 0;
 				span{
 					border-bottom: 0.067em  solid #fff;
@@ -93,7 +95,7 @@ main{
 			font-family: "SegoeUILight","Arial", sans-serif;
 			text-transform:uppercase;
 			color: #515f67;
-			font-size: 2.14rem;
+			font-size: rem(30);
 				.span_a{
 					border-bottom: 0.067em  solid #515f67;
 					display:inline;
@@ -217,7 +219,7 @@ main{
 			color:#fff;
 				.defsec_header{
 				text-transform:uppercase;
-				font-size: 2.14rem;
+				font-size: rem(30);
 					span{
 						
 						border-bottom: 0.067em  solid #fff;
@@ -267,6 +269,7 @@ main{
 			.twitter_head{
 				font-family: "SegoeUILight","Arial", sans-serif;
 				text-transform:uppercase;
+				font-size: rem(30);
 					span{
 						border-bottom: 0.067em  solid #fff;
 					}
@@ -304,6 +307,7 @@ main{
 				.john_head{
 					font-family: "SegoeUILight","Arial", sans-serif;
 					text-transform: uppercase;
+					font-size: rem(30);
 						span{
 							border-bottom: 0.067em  solid #fff;
 						}
@@ -332,4 +336,132 @@ main{
 							}
 					}
 			}
+	}
+	.testim{
+		padding-top: 6.40%;
+		padding-bottom: 6%;
+			.testim_head{
+				font-family: "SegoeUILight","Arial", sans-serif;
+				text-transform: uppercase;
+				font-size: rem(30);
+						span{
+							border-bottom: 0.067em  solid #515f67;
+						}
+			}
+			.testim_i{
+				font-family: "Bitter-Bold","Arial", sans-serif;
+				font-size: rem(72);
+				vertical-align: top;
+				 line-height: em(60,72);
+			}
+			.testim_txt{
+				font-family: "SegoeUILight","Arial", sans-serif;
+				font-size: rem(28);
+				line-height: em(50,28);
+
+			}
+			.testim_quote{
+				border: 0;
+				font-family: "SegoeUIBold","Arial", sans-serif;
+				font-size: 1rem;
+				color:#4bcaff;
+				line-height: em(35);
+				margin:0;
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+	}
+
+
+//Form
+// ============================================================================================
+	.form{
+		background:url(../img/Form.png);
+		background-position: center center;
+		background-size: cover;
+		color:#fff;
+
+			
+			.form_wrapper{
+				padding-top: 6.40%;
+				padding-bottom: 6%;
+					.form_headrow{
+					margin-bottom: 3.16%;
+					font-family: "SegoeUILight","Arial", sans-serif;
+					text-transform: uppercase;
+					font-size: rem(30);
+						span{
+							border-bottom:2px solid #fff;
+							padding-right:em(5,30);
+							margin-right:em(-5,30);
+
+						}
+					}
+					.form_namerow{
+						.nameblock{
+							font-size: 1rem;
+							font-family: "SegoeUIBold","Arial", sans-serif;
+								input{
+									background:transparent;
+									border:2px solid #fff;
+									border-radius: 0;
+									height: 56px;
+								}
+						}
+						.nameblocktxt{
+							font-size: 1rem;
+							font-family: "SegoeUISemiBold","Arial", sans-serif;
+								p:first-child{
+									padding-top: 3.42%;
+								}
+						}
+						.nameblock, .nameblocktxt{
+							p{
+								margin-bottom: 7.59%;
+							}
+						}							
+					}
+					.form_msgrow{
+						.msgrow_txtarea{
+							margin-bottom: 3.16%;
+								#message{
+									background:transparent;
+									border-radius: 0;
+									height:214px;
+									border:2px solid #fff;
+								}
+						}
+						.msgbtn{
+									width:100%;
+									background:#4bcaff;
+									text-transform: uppercase;
+									font-size: 1rem;
+									font-family: "SegoeUISemiBold","Arial", sans-serif;
+									border:0;
+									height:60px;
+								}
+					}
+			}
+	}	
+
+	//Footer
+	// ==================================================================
+	footer{
+		background:#353f47;
+		color:#4b5860;
+		font-size: rem(12);
+		font-family: "SegoeUISemiBold","Arial", sans-serif;
+		text-transform: uppercase;
+		.footer_row{
+			padding-top: 6.40%;
+			padding-bottom: 6%;
+				a{
+					color:#4b5860;
+					text-decoration:none;
+					cursor:pointer;
+				}
+				span{
+					padding: 0 1em 0 1em;
+				}
+		}
 	}
