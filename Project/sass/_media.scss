@@ -1,0 +1,132 @@
+
+// $xs-min: "only screen and (min-width:none)";
+// $xs-max: "only screen and (max-width:520px)";
+// $xs-sm: "only screen (min-width: none) and (max-width:767px)";
+
+// $sm-min: "only screen and (min-width:768px)";
+// $sm-max: "only screen and (max-width:991px)";
+// $sm-md: "only screen (min-width: 768px) and (max-width:991px)";
+
+// $md-min: "only screen and (min-width:992px)";
+// $md-max: "only screen and (max-width:1199px)";
+// $md-lg: "only screen (min-width: 992px) and (max-width:1199px)";
+
+// $lg-min: "only screen and (min-width:1200px)";
+// $lg-max: "only screen and (max-width:none)";
+
+// @media #{$xs-sm} {
+// 	header .heroHeading_logophrase{
+// 		font-size: rem(2,14);
+// 	}
+// }
+// /* Small devices (tablets, 768px and up) */
+// @media #{$sm-min} { 
+// 	header .heroHeading_logophrase{
+// 		font-size: rem(32,14)
+// 	}
+// }
+
+// // Medium devices (desktops, 992px and up) 
+// @media #{$md-min} { 
+// 	header .heroHeading_logophrase{
+// 		font-size: rem(41,14)
+// 	}
+// }
+
+//  // Large devices (large desktops, 1200px and up) 
+// @media #{$lg-min} { 
+
+ // }
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+header .heroHeading_logophrase{
+		font-size: 38px;
+	}
+
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+		html, body{
+		font-size: 12px;
+	}
+		header .heroHeading_logophrase{
+		font-size: 32px;
+	}
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+			html, body{
+		font-size: 10px;
+	}
+	header .heroHeading_logophrase{
+		font-size: 20px;
+	}
+	.video{
+		margin-top: 15px;
+	}
+	
+		#name{
+			height: 30px;
+		}
+		#email{
+			height: 30px;
+		}
+		 #message{
+			height: 150px;
+		}
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	html, body{
+		font-size: 8px;
+	}
+header .heroHeading_logophrase{
+		font-size: 14px;
+	}
+	.video{
+		margin-top: 10px;
+	}
+	#name{
+			height: 20px;
+		}
+		#email{
+			height: 20px;
+		}
+		 #message{
+			height: 50px;
+		}
+		#button{
+			height:25px;
+		}
+}
+@media (max-width:320px) { 
+	/* smartphones, Android phones, landscape iPhone */
+	html, body{
+		font-size: 8px;
+	}
+	header .heroHeading_logophrase{
+		font-size: 12px;
+	}
+	 }
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	
+}
+
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+
+}
+
+

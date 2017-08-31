@@ -91,8 +91,11 @@ header {
   header .topmenu {
     padding: 3.33% 0 3.39% 0;
     background: rgba(53, 63, 70, 0.5); }
+    header .topmenu .logo {
+      padding: 7px 17px 8px 17px; }
     header .topmenu .topbtn {
-      padding: 10px 17px 8px 17px;
+      font-size: 1rem;
+      padding: 0.8547% 1.45299% 0.68376% 1.45299%;
       color: white;
       font-weight: bold;
       border: 2px solid transparent;
@@ -112,7 +115,7 @@ header {
     background: rgba(53, 63, 70, 0.7);
     padding: 0 20px;
     font-size: 3rem;
-    line-height: 75px;
+    line-height: 1.78571em;
     font-family: "SegoeUILight","Arial", sans-serif;
     text-transform: uppercase; }
 
@@ -144,7 +147,8 @@ main {
     font-family: "SegoeUILight","Arial", sans-serif;
     text-transform: uppercase;
     color: #515f67;
-    font-size: 2.14286rem; }
+    font-size: 2.14286rem;
+    padding-left: 15px; }
     .portfolio_ul .portf_logo .span_a {
       border-bottom: 0.067em  solid #515f67;
       display: inline;
@@ -156,7 +160,7 @@ main {
     text-transform: uppercase;
     font-family: "SegoeUIBold","Arial", sans-serif;
     color: #515f67;
-    padding: 10px 17px 8px 17px;
+    padding: 0.71429rem 1.21429rem 0.57143rem 1.21429rem;
     text-decoration: none;
     border: 2px solid transparent;
     -webkit-transition: color 0.5s, border 0.5s;
@@ -168,14 +172,6 @@ main {
     .portfolio_ul .portf_btn:hover {
       cursor: pointer;
       color: #4bcaff; }
-  .portfolio_ul #portf_btn_panoram {
-    margin-right: 0.6em; }
-  .portfolio_ul #portf_btn_portr {
-    margin-left: 0.4em; }
-  .portfolio_ul #portf_btn_macro {
-    margin-left: 0.6em; }
-  .portfolio_ul #portf_btn_journal {
-    margin-left: 0.8em; }
 
 .portf_img {
   margin-bottom: 2.48%; }
@@ -362,8 +358,9 @@ main {
     .form .form_wrapper .form_headrow {
       margin-bottom: 3.16%;
       font-family: "SegoeUILight","Arial", sans-serif;
-      text-transform: uppercase;
-      font-size: 2.14286rem; }
+      text-transform: uppercase; }
+      .form .form_wrapper .form_headrow .form_head {
+        font-size: 2.14286rem; }
       .form .form_wrapper .form_headrow span {
         border-bottom: 2px solid #fff;
         padding-right: 0.16667em;
@@ -373,7 +370,7 @@ main {
       font-family: "SegoeUIBold","Arial", sans-serif; }
       .form .form_wrapper .form_namerow .nameblock input {
         background: transparent;
-        border: 2px solid #fff;
+        border: 0.14286rem solid #fff;
         border-radius: 0;
         height: 56px; }
     .form .form_wrapper .form_namerow .nameblocktxt {
@@ -385,11 +382,11 @@ main {
       margin-bottom: 7.59%; }
     .form .form_wrapper .form_msgrow .msgrow_txtarea {
       margin-bottom: 3.16%; }
-      .form .form_wrapper .form_msgrow .msgrow_txtarea #message {
+      .form .form_wrapper .form_msgrow .msgrow_txtarea textarea {
         background: transparent;
         border-radius: 0;
         height: 214px;
-        border: 2px solid #fff; }
+        border: 0.14286rem solid #fff; }
     .form .form_wrapper .form_msgrow .msgbtn {
       width: 100%;
       background: #4bcaff;
@@ -414,3 +411,55 @@ footer {
       cursor: pointer; }
     footer .footer_row span {
       padding: 0 1em 0 1em; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  header .heroHeading_logophrase {
+    font-size: 38px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  html, body {
+    font-size: 12px; }
+  header .heroHeading_logophrase {
+    font-size: 32px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  html, body {
+    font-size: 10px; }
+  header .heroHeading_logophrase {
+    font-size: 20px; }
+  .video {
+    margin-top: 15px; }
+  #name {
+    height: 30px; }
+  #email {
+    height: 30px; }
+  #message {
+    height: 150px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  html, body {
+    font-size: 8px; }
+  header .heroHeading_logophrase {
+    font-size: 14px; }
+  .video {
+    margin-top: 10px; }
+  #name {
+    height: 20px; }
+  #email {
+    height: 20px; }
+  #message {
+    height: 50px; }
+  #button {
+    height: 25px; } }
+
+@media (max-width: 320px) {
+  /* smartphones, Android phones, landscape iPhone */
+  html, body {
+    font-size: 8px; }
+  header .heroHeading_logophrase {
+    font-size: 12px; } }

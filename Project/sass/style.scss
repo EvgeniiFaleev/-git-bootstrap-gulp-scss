@@ -2,11 +2,9 @@
 @import "fonts";
 @import "functions";
 @import "mixins";
-  
+
  
-//  *[class*="col-"]{
-// 	padding-left: 0;
-// }
+
 
 html, body{
 	font-size: 14px;
@@ -29,8 +27,12 @@ header{
 	.topmenu{
 		padding: 3.33% 0 3.39% 0;
 		background: rgba(53, 63, 70, 0.5);
+			.logo{
+				padding:7px 17px 8px 17px;
+			}
 			.topbtn{
-				padding:10px 17px 8px 17px;
+				font-size: 1rem;
+				padding:percentage(10px/1170px) percentage(17px/1170px) percentage(8px/1170px) percentage(17px/1170px);
 				color:white;
 				font-weight: bold;
 				border: 2px solid transparent;
@@ -45,7 +47,7 @@ header{
 					cursor: pointer;
 					color:#4bcaff;
 				}
-			}
+			} 
 	}
 	.headwrapper{
 		margin-top:13.02%;
@@ -55,7 +57,7 @@ header{
 		background: rgba(53, 63, 70, 0.7);
 		padding:0 20px;
 		font-size:3rem;
-		line-height: 75px;
+		line-height: em(75,42);
 		font-family: "SegoeUILight","Arial", sans-serif;
 		text-transform: uppercase;
 		
@@ -96,6 +98,7 @@ main{
 			text-transform:uppercase;
 			color: #515f67;
 			font-size: rem(30);
+			padding-left: 15px;
 				.span_a{
 					border-bottom: 0.067em  solid #515f67;
 					display:inline;
@@ -111,7 +114,7 @@ main{
 				text-transform:uppercase;
 				font-family:"SegoeUIBold","Arial", sans-serif;
 				color:#515f67;
-				padding:10px 17px 8px 17px;
+				padding:rem(10,14) rem(17,14) rem(8,14) rem(17,14);
 				text-decoration:none;
 				border: 2px solid transparent;
 				-webkit-transition: color 0.5s, border 0.5s;
@@ -131,19 +134,7 @@ main{
 	// 	padding-left: 1em;
 
 	// }
-	#portf_btn_panoram{
-		margin-right:0.6em;
-		
-	}
-	#portf_btn_portr{
-		margin-left: 0.4em;
-	}
-	#portf_btn_macro{
-		margin-left: 0.6em;
-	}
-	#portf_btn_journal{
-		margin-left: 0.8em;
-	}
+
 }
 
 .portf_img{
@@ -389,7 +380,9 @@ main{
 					margin-bottom: 3.16%;
 					font-family: "SegoeUILight","Arial", sans-serif;
 					text-transform: uppercase;
-					font-size: rem(30);
+						.form_head{
+							font-size: rem(30,14);
+						}
 						span{
 							border-bottom:2px solid #fff;
 							padding-right:em(5,30);
@@ -403,7 +396,7 @@ main{
 							font-family: "SegoeUIBold","Arial", sans-serif;
 								input{
 									background:transparent;
-									border:2px solid #fff;
+									border:rem(2,14) solid #fff;
 									border-radius: 0;
 									height: 56px;
 								}
@@ -424,11 +417,11 @@ main{
 					.form_msgrow{
 						.msgrow_txtarea{
 							margin-bottom: 3.16%;
-								#message{
+								textarea{
 									background:transparent;
 									border-radius: 0;
 									height:214px;
-									border:2px solid #fff;
+									border:rem(2,14) solid #fff;
 								}
 						}
 						.msgbtn{
@@ -465,3 +458,4 @@ main{
 				}
 		}
 	}
+	@import "media"; 
